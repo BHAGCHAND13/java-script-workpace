@@ -13,7 +13,6 @@ const value = null;
 let userEmail;  // ex- userEmail = undefind;
 const valueBigInt = 12345678765445n;
 const id = Symbol(123);
-
 // console.log(typeof(id));
 
 
@@ -37,3 +36,26 @@ function myFunction(){
 // console.log(typeof(myFunction));
 
 
+//  ---------------------heap & stack memory-----------------
+
+// stack... 
+// stack memory means premitive data type
+let userEmailId = "usergoogle.com";
+let myEmailId =  userEmailId;
+myEmailId = "mygoogle.com";
+
+// console.log( user@EmailId);
+// console.log(my@EmailId);
+
+// Heap... 
+// Hep memory means Non-premitive.(refarance) data type
+
+let oneUser={
+     name: "bhagchand",
+     email:"bhagchand@google.com",
+     Id:28
+};
+let twoUser = oneUser;
+twoUser.email="dhavale@google.com";
+console.log(oneUser);
+console.log(twoUser);
