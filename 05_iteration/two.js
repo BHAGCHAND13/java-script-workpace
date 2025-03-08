@@ -28,8 +28,8 @@ while(val < fivePandavName.length){
 // }while(Index<=10);
 
 
-// let table = 2;
-// do{
-//     console.log(`index is ${table}`);
-//     table = table +2;
-// }while(table<=20);
+let table = 2;
+do{
+    console.log(`index is ${table}`);
+    table = table +2;
+}while(table<=20);
