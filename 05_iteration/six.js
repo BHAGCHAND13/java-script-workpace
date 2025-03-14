@@ -45,9 +45,9 @@ const books = [
 // console.log(Uboock);
 
 
-// let userBoock = books.filter( (ex)=> { 
-//     return ex.genre=='Science'
-//     })
-// console.log(userBoock);
+let userBoock = books.filter( (ex)=> { 
+    return ex.genre=='Science'
+    })
+console.log(userBoock);
 
 
